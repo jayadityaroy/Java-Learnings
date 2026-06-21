@@ -1,4 +1,4 @@
-package usingAnonymInnerClass;
+package Telusko.usingAnonymInnerClass;
 @FunctionalInterface
 interface A{
 	public void methodA(int i);
