@@ -6,6 +6,7 @@ import java.util.Scanner;
 
 class InputFromUser{
     public static void main(String args[]){
+        // out and in are static members of System class. out is an instance of PrintStream class and in is an instance of InputStream class.
         
         // Using System.in.read() to read input from the user
         // System.out.println("Enter your name: ");
