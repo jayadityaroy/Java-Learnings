@@ -23,7 +23,8 @@ class InputFromUser{
         InputStreamReader isr = new InputStreamReader(System.in);
         BufferedReader br = new BufferedReader(isr);
         try {
-            // readLine() method reads a line of text from the input stream and returns it as a String. We then parse it to an integer using Integer.parseInt() method.
+            // readLine() method reads a line of text from the input stream and returns it as a String. 
+            // We then parse it to an integer using Integer.parseInt() method.
             System.out.println("Enter a number: ");
             int input = Integer.parseInt(br.readLine()); // input: 123
             System.out.println("You entered: " + input); // output: 123
