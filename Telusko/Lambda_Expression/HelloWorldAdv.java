@@ -1,4 +1,4 @@
-package Telusko.usingLambda;
+package Lambda_Expression;
 @FunctionalInterface
 interface B{
 	public void methodB(int i);
